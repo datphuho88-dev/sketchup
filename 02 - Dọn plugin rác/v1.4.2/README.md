@@ -8,7 +8,8 @@
 
 ## File cài
 
-- `VADA_Don_Plugin_v1.4.2.rbz`
+- `VADA_Don_Plugin_v1.4.2.rbz
+- `VADA_Don_Plugin_v1.4.2_source.zip``
 
 ## Cài đặt
 
