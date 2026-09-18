@@ -7,7 +7,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | # | Plugin | Phiên bản mới nhất | Gói cài |
 |---|---|---:|---|
 | 01 | 📏 Ghi kích thước tự động | v1.1.0 | Chưa đủ RBZ + source đã kiểm thử |
-| 02 | 🧹 Dọn plugin rác | v1.4.0 | Có RBZ + source |
+| 02 | 🧹 Dọn plugin rác | v1.4.1 | Có RBZ + source |
 | 03 | 🔎 Tìm công cụ nhanh | v0.4.2 | Có RBZ + source |
 | 04 | ✂️ Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | 📐 Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
@@ -50,6 +50,12 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Hỗ trợ ghi kích thước nhanh cho mặt tròn/mặt cong khó bắt điểm.
 - Tối ưu hiển thị thông tin kích thước trực quan hơn.
 - Trạng thái kho hiện chưa đủ bộ RBZ + source đã kiểm thử của v1.1.0.
+
+### 🧹 02 - Dọn plugin rác — v1.4.1
+- Sửa **Thử hiển thị**: extension đã đăng ký được nạp bằng `SketchupExtension#check`, thay vì chạy lại loader ngoài đã bị `file_loaded?` chặn.
+- Giữ nguyên trạng thái bật/tắt khi khởi động: extension vốn tắt sẽ được `uncheck` lại sau khi thử.
+- Plugin cài thủ công chỉ thử loader phù hợp và báo lỗi nạp trực tiếp.
+- Giữ nguyên Gỡ hẳn, Cách ly, Khôi phục, tìm kiếm và bộ lọc của v1.4.0.
 
 ### 🧹 02 - Dọn plugin rác — v1.4.0
 - Thêm **Thử hiển thị**: nạp tạm plugin vào phiên SketchUp hiện tại để xem toolbar/menu trước khi tắt/cách ly/gỡ, không cần khởi động lại và không đổi trạng thái bật/tắt đã lưu.
