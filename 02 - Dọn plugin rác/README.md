@@ -1,6 +1,6 @@
 # 02 - Dọn plugin rác
 
-**Phiên bản mới nhất:** v1.4.1
+**Phiên bản mới nhất:** v1.4.2
 
 Plugin tìm, kiểm tra, thử hiển thị, tắt, cách ly, gỡ hẳn và khôi phục nhanh plugin/extension SketchUp.
 
@@ -17,8 +17,16 @@ Plugin tìm, kiểm tra, thử hiển thị, tắt, cách ly, gỡ hẳn và kh�
 - Giảm nguy cơ xử lý nhầm LibFredo, TT_Lib và AMS_Lib.
 - Tối ưu cho SketchUp 2023.
 
+## Sửa lỗi v1.4.2
+
+- Sửa lỗi đóng gói v1.4.1 khiến RBZ và source ZIP bị trỏ nhầm cùng một blob.
+- Đóng gói lại RBZ chuẩn với loader ở thư mục gốc và thư mục plugin đầy đủ.
+- Giữ nguyên chức năng Thử hiển thị đã sửa ở v1.4.1.
+- Khuyến nghị cài qua SketchUp Extension Manager và khởi động lại SketchUp.
+
 ## File phát hành
 
+- v1.4.2/VADA_Don_Plugin_v1.4.2.rbz
 - v1.4.1/VADA_Don_Plugin_v1.4.1.rbz
 - v1.4.1/VADA_Don_Plugin_v1.4.1_source.zip
 - v1.4.0/VADA_Don_Plugin_v1.4.0.rbz
