@@ -14,7 +14,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
 | 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source |
 | 08 | VADA Plugin Manager | v1.3.3 | Có RBZ + source |
-| 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
+| 09 | Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
 | 10 | VADA Workspace Manager | v1.0.2 | Có RBZ + source |
 | 11 | Quản lý Style Dim & Ghi chú | v1.0.1 | Có RBZ + source |
 
@@ -75,10 +75,11 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Hỗ trợ `reload_candidates` để reload phần core an toàn.
 - `Tạo mặt cắt và góc nhìn` dùng hot reload phần core nên cập nhật logic không còn mặc định yêu cầu restart.
 
-### 09 - Tạo phòng nhanh — v1.0.0
-- Phiên bản phát hành đầu tiên.
-- Tạo nhanh một căn phòng trong SketchUp.
-- Có gói RBZ + source để cài đặt và tiếp tục phát triển.
+### 09 - Tạo phòng nhanh — v1.1.0
+- Tự động tô màu phân biệt **Sàn / Tường / Trần** ngay sau khi tạo phòng.
+- Sàn dùng màu nâu, tường màu kem sáng, trần màu trắng.
+- Đổi tên group phía trên từ **Mái** thành **Trần** để dễ quản lý trong Outliner.
+- Giữ nguyên cách nhập kích thước và cách đặt phòng của v1.0.0.
 
 ### 10 - VADA Workspace Manager — v1.0.2
 - Thêm ô **Tìm nhanh toolbar / plugin** theo tên.
