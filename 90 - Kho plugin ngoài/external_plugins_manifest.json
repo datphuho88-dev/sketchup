@@ -2,6 +2,17 @@
   "schema": 1,
   "plugins": [
     {
+      "key": "1001bit_pro_5d4a0ba",
+      "name": "1001bit pro",
+      "version": "0.0.0",
+      "creator": "Goh Chun Hee, GohCH",
+      "description": "Plugins for architectural works from www.1001bit.com",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:40:17Z"
+    },
+    {
       "key": "sketchuv_c942d02",
       "name": "SketchUV",
       "version": "1.0.2",
