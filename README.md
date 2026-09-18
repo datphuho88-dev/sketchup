@@ -7,7 +7,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | # | Plugin | Phiên bản mới nhất | Gói cài |
 |---|---|---:|---|
 | 01 | 📏 Ghi kích thước tự động | v1.1.0 | Chưa đủ RBZ + source đã kiểm thử |
-| 02 | 🧹 Dọn plugin rác | v1.4.1 | Có RBZ + source |
+| 02 | 🧹 Dọn plugin rác | v1.4.2 | Có RBZ |
 | 03 | 🔎 Tìm công cụ nhanh | v0.4.2 | Có RBZ + source |
 | 04 | ✂️ Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | 📐 Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
@@ -50,6 +50,11 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Hỗ trợ ghi kích thước nhanh cho mặt tròn/mặt cong khó bắt điểm.
 - Tối ưu hiển thị thông tin kích thước trực quan hơn.
 - Trạng thái kho hiện chưa đủ bộ RBZ + source đã kiểm thử của v1.1.0.
+
+### 🧹 02 - Dọn plugin rác — v1.4.2
+- Sửa lỗi đóng gói của v1.4.1: file RBZ trên GitHub trước đó bị trỏ nhầm cùng blob với source ZIP nên SketchUp không cài được.
+- Đóng gói lại RBZ đúng cấu trúc SketchUp Extension Manager.
+- Giữ nguyên sửa lỗi **Thử hiển thị** từ v1.4.1.
 
 ### 🧹 02 - Dọn plugin rác — v1.4.1
 - Sửa **Thử hiển thị**: extension đã đăng ký được nạp bằng `SketchupExtension#check`, thay vì chạy lại loader ngoài đã bị `file_loaded?` chặn.
