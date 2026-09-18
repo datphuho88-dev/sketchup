@@ -12,9 +12,10 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 04 | Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
-| 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source; RBZ hiện nằm ở đường dẫn legacy |
+| 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source |
 | 08 | VADA Plugin Manager | v1.3.1 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
+| 10 | VADA Workspace Manager | v1.0.0 | Có RBZ + source |
 
 ## Ghi chú phiên bản mới nhất
 
@@ -55,8 +56,8 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 ### 07 - Tính tổng diện tích — v1.0.1
 - Đổi phần hiển thị diện tích sang chữ đỏ.
 - Thêm badge số thứ tự #1, #2... và nền tối phía sau chữ.
-- RBZ v1.0.1 đã có trong repo nhưng hiện nằm tại đường dẫn legacy `VADA-Tong-Dien-Tich/...`.
-- Cần tiếp tục chuẩn hóa RBZ vào đúng thư mục `07 - Tính tổng diện tích` để cấu trúc phát hành đồng nhất.
+- RBZ v1.0.1 và source đã được chuẩn hóa vào đúng thư mục `07 - Tính tổng diện tích`.
+- Đường dẫn legacy đã được loại bỏ sau khi sao lưu đầy đủ file phiên bản.
 
 ### 08 - VADA Plugin Manager — v1.3.1
 - Sửa lỗi toolbar/icon không hiện sau khi cài v1.3.0.
