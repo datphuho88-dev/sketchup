@@ -13,7 +13,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 05 | Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
 | 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source |
-| 08 | VADA Plugin Manager | v1.3.1 | Có RBZ + source |
+| 08 | VADA Plugin Manager | v1.3.2 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
 | 10 | VADA Workspace Manager | v1.0.0 | Có RBZ + source |
 
@@ -59,7 +59,11 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - RBZ v1.0.1 và source đã được chuẩn hóa vào đúng thư mục `07 - Tính tổng diện tích`.
 - Đường dẫn legacy đã được loại bỏ sau khi sao lưu đầy đủ file phiên bản.
 
-### 08 - VADA Plugin Manager — v1.3.1
+### 08 - VADA Plugin Manager — v1.3.2
+- Sửa lỗi đóng cửa sổ rồi mở lại bị trắng.
+- Tự tạo HtmlDialog mới sau khi cửa sổ cũ đã đóng.
+- Tự kiểm tra GitHub khi mở và bổ sung danh mục offline đầy đủ 01-10.
+- Tạo phòng nhanh được hiển thị ngay cả trước khi quét GitHub.
 - Sửa lỗi toolbar/icon không hiện sau khi cài v1.3.0.
 - Giữ tham chiếu toolbar và tự ép hiển thị sau khi SketchUp khởi tạo UI.
 - Plugin mới trên GitHub nhưng chưa cài trong SketchUp được đưa lên đầu danh sách.
