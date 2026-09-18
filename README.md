@@ -17,6 +17,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 09 | 🏠 Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
 | 10 | 🗂️ VADA Workspace Manager | v1.0.3 | Có RBZ + source |
 | 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
+| 12 | 📌 Chọn toàn bộ DIM | v1.0.0 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -35,6 +36,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - 🏠 `09 - Tạo phòng nhanh/`
 - 🗂️ `10 - VADA Workspace Manager/`
 - ✏️ `11 - Quản lý Style Dim & Ghi chú/`
+- 📌 `12 - Chọn toàn bộ DIM/`
 
 ### 📄 Quy ước tệp
 - 📦 `*.rbz` — file cài plugin.
@@ -138,6 +140,16 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Giữ áp Style cho toàn model hoặc đối tượng đang chọn, đơn vị, màu, mũi tên, vị trí chữ, ghi chú và tự áp.
 - Không giả lập **Bold**: SketchUp 2023 Ruby API không cho extension đổi font/cỡ/Bold của Dimension; preset vẫn nhớ lựa chọn và UI mở đúng Model Info → Dimensions để đặt native.
 - Không dùng polling quét model liên tục; ưu tiên observer + kiểm tra sau transaction.
+
+
+### 📌 12 - Chọn toàn bộ DIM — v1.0.0
+- Phát hành đầu tiên.
+- Bấm một lần để quét và chọn toàn bộ Dimension native trong model.
+- Quét đệ quy DIM nằm trong Group/Component lồng nhiều cấp.
+- Bổ sung nhận diện đối tượng DIM do AutoDim/AuDim tạo qua tên, Tag/Layer và Attribute Dictionary.
+- Có toolbar riêng, icon riêng, giao diện tiếng Việt nền đen và hiển thị rõ version v1.0.0.
+- RBZ và source archive của v1.0.0 được lưu cùng thư mục version để máy khác có thể cài qua VADA Plugin Manager.
+
 ## 🧱 Cấu trúc chuẩn
 
 - Thư mục plugin dùng số thứ tự 01 đến 100.
