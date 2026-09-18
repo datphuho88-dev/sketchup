@@ -138,12 +138,12 @@
     {
       "id": "plugin_manager",
       "name": "VADA Plugin Manager",
-      "latest_version": "1.5.0",
+      "latest_version": "1.5.1",
       "loader_candidates": [
         "vada_plugin_manager.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/08%20-%20VADA%20Plugin%20Manager/v1.5.0/VADA_Plugin_Manager_v1.5.0.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/08%20-%20VADA%20Plugin%20Manager/v1.5.1/VADA_Plugin_Manager_v1.5.1.rbz",
       "repo_path": "08 - VADA Plugin Manager",
       "extension_names": [
         "VADA Plugin Manager"
