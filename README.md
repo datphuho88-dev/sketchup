@@ -16,7 +16,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 08 | 🔄 VADA Plugin Manager | v1.3.3 | Có RBZ + source |
 | 09 | 🏠 Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
 | 10 | 🗂️ VADA Workspace Manager | v1.0.2 | Có RBZ + source |
-| 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.1.1 | Có RBZ + source |
+| 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -118,14 +118,14 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Giữ nguyên toàn bộ cơ chế ẩn/hiện trực tiếp `UI::Toolbar`, profile, hoàn tác và tự dọn của v1.0.1.
 
 
-### ✏️ 11 - Quản lý Style Dim & Ghi chú — v1.1.1
-- Sửa trường hợp Dimension do plugin khác tạo không nhận Style.
-- Theo dõi cả model root, active context và toàn bộ Component/Group definitions.
-- Gắn DefinitionsObserver để bắt definition mới do plugin tạo.
-- Gom Dimension/Text mới theo batch và áp Style sau khi transaction nguồn kết thúc, tránh plugin nguồn ghi đè lại Style VADA.
-- Không dùng polling hoặc quét model liên tục.
-- Giữ các chức năng preset, đơn vị, màu, mũi tên, vị trí chữ và tùy chọn Bold của v1.1.0.
-- SketchUp 2023 vẫn không có Ruby API để đổi font/cỡ/Bold trực tiếp của Dimension; phần này cần đặt native trong Model Info → Dimensions.
+### ✏️ 11 - Quản lý Style Dim & Ghi chú — v1.2.0
+- Làm lại giao diện theo dạng **thư viện Style**: danh sách bộ Style bên trái, khu chỉnh sửa bên phải, thao tác nhanh và rõ trạng thái chưa lưu.
+- Thêm **Tạo Style mới / Nhân bản / Đổi tên / Xóa / Lưu thay đổi**; tên từng bộ Style được lưu độc lập để dùng lại khi mở file SketchUp khác.
+- Làm lại cơ chế bắt Dimension native do plugin khác tạo bằng snapshot `persistent_id` sau transaction, kèm theo dõi entity mới/sửa để hạn chế plugin nguồn ghi đè Style.
+- Thêm **Kiểm tra đối tượng đang chọn** để xác định plugin Dim đang tạo Dimension native hay chỉ vẽ Line/Text/Overlay riêng.
+- Giữ áp Style cho toàn model hoặc đối tượng đang chọn, đơn vị, màu, mũi tên, vị trí chữ, ghi chú và tự áp.
+- Không giả lập **Bold**: SketchUp 2023 Ruby API không cho extension đổi font/cỡ/Bold của Dimension; preset vẫn nhớ lựa chọn và UI mở đúng Model Info → Dimensions để đặt native.
+- Không dùng polling quét model liên tục; ưu tiên observer + kiểm tra sau transaction.
 ## 🧱 Cấu trúc chuẩn
 
 - Thư mục plugin dùng số thứ tự 01 đến 100.
