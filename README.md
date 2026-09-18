@@ -83,7 +83,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 
 ## Cấu trúc chuẩn
 
-- Thư mục plugin dùng số thứ tự 01 đến 10.
+- Thư mục plugin dùng số thứ tự 01 đến 100.
 - Mỗi phiên bản mới ưu tiên nằm trong thư mục `vX.Y.Z` và không ghi đè bản cũ.
 - Tên plugin, cửa sổ và nhãn giao diện ưu tiên tiếng Việt.
 - Giao diện VADA dùng nền `#000000` và hiển thị rõ phiên bản hiện tại.
