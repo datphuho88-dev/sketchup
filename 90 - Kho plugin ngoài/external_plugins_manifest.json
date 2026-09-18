@@ -46,6 +46,17 @@
       "updated_at": "2026-09-18T22:41:13Z"
     },
     {
+      "key": "hung_ve_nhanh_f5f0d56",
+      "name": "Hùng vẽ nhanh",
+      "version": "1.0.0",
+      "creator": "Hùng",
+      "description": "Bộ 4 công cụ vẽ nhanh dành cho SketchUp.",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:41:16Z"
+    },
+    {
       "key": "sketchuv_c942d02",
       "name": "SketchUV",
       "version": "1.0.2",
