@@ -2,26 +2,15 @@
   "schema": 1,
   "plugins": [
     {
-      "key": "1001bit_pro_5d4a0ba",
-      "name": "1001bit pro",
-      "version": "0.0.0",
-      "creator": "Goh Chun Hee, GohCH",
-      "description": "Plugins for architectural works from www.1001bit.com",
+      "key": "sketchuv_c942d02",
+      "name": "SketchUV",
+      "version": "1.0.2",
+      "creator": "Dale Martens (Whaat)",
+      "description": "Adds Plugins->SketchUV to the SketchUp interface.  This plugin adds several UV mapping features.",
       "source_url": "",
-      "rbz_url": "",
-      "sha256": "",
-      "updated_at": "2026-09-18T22:37:54Z"
-    },
-    {
-      "key": "profile_builder_3_7be1789",
-      "name": "Profile Builder 3",
-      "version": "3.2.1",
-      "creator": "mind.sight.studios",
-      "description": "Profile Builder allows parametric modelling and editing of building materials.  This plugin uses the javascript library wz_jsgraphics.js which is free software under the terms of the LGPL license.  Open the file for further details. Some icons have been created by Visual Pharm (website:icons8.com) and are licensed for commercial use.",
-      "source_url": "",
-      "rbz_url": "",
-      "sha256": "",
-      "updated_at": "2026-09-18T22:38:25Z"
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/90%20-%20Kho%20plugin%20ngo%C3%A0i/sketchuv/v1.0.2/sketchuv_v1.0.2.rbz",
+      "sha256": "f670ab4005b8a8e0ab96b46b3aec05c80c241a14f9927aa5d558f4990442bc4b",
+      "updated_at": "2026-09-18T22:39:38Z"
     }
   ]
 }
