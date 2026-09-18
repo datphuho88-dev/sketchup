@@ -16,6 +16,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 08 | VADA Plugin Manager | v1.3.3 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
 | 10 | VADA Workspace Manager | v1.0.1 | Có RBZ + source |
+| 11 | Quản lý Style Dim & Ghi chú | v1.0.1 | Có RBZ + source |
 
 ## Ghi chú phiên bản mới nhất
 
