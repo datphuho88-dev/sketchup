@@ -15,7 +15,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source |
 | 08 | VADA Plugin Manager | v1.3.2 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
-| 10 | VADA Workspace Manager | v1.0.0 | Có RBZ + source |
+| 10 | VADA Workspace Manager | v1.0.1 | Có RBZ + source |
 
 ## Ghi chú phiên bản mới nhất
 
@@ -77,13 +77,16 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Tạo nhanh một căn phòng trong SketchUp.
 - Có gói RBZ + source để cài đặt và tiếp tục phát triển.
 
-### 10 - VADA Workspace Manager — v1.0.0
-- Lưu profile trạng thái toolbar đang hiện/ẩn.
-- Quản lý toolbar của plugin VADA và extension bên ngoài qua `UI::Toolbar`.
-- Tùy chọn quản lý cả toolbar gốc SketchUp.
-- Tự dọn sau `onExtensionsLoaded`, kèm vài lượt kiểm tra ngắn; không polling nền liên tục.
-- Phát hiện toolbar mới và đánh dấu `MỚI`.
-- Có dọn nhanh, hoàn tác và nhiều profile workspace.
+### 10 - VADA Workspace Manager — v1.0.1
+- Sửa lỗi nút **DỌN NHANH PLUGIN** không ẩn toolbar thật trên SketchUp.
+- Giữ strong-reference tới đúng object `UI::Toolbar` đã phát hiện.
+- Thêm nút **ẨN NGAY / HIỆN** cho từng toolbar.
+- Dọn nhanh dùng trực tiếp các ô **GIỮ** đang tick trên giao diện.
+- **DỌN THEO PROFILE** đồng bộ cả show/hide đúng trạng thái đã lưu.
+- **Hoàn tác** lưu trực tiếp object toolbar trong session để mở lại chính xác.
+- Startup cleanup chạy nhiều lượt ngắn sau khi extensions load, không polling liên tục.
+- Chỉ ẩn/hiện toolbar; không uninstall hoặc disable extension.
+
 
 ## Cấu trúc chuẩn
 
