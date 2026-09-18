@@ -13,11 +13,12 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 05 | Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
 | 07 | Tính tổng diện tích | v1.0.1 | Source v1.0.1; RBZ hiện có v1.0.0 |
-| 08 | VADA Plugin Manager | v1.1.0 | Có RBZ + source |
+| 08 | VADA Plugin Manager | v1.2.0 | Có RBZ + source |
+| 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
 
 ## Cấu trúc chuẩn
 
-- Thư mục plugin dùng số thứ tự 01 đến 08.
+- Thư mục plugin dùng số thứ tự 01 đến 09.
 - Mỗi phiên bản mới ưu tiên nằm trong thư mục vX.Y.Z và không ghi đè bản cũ.
 - Tên plugin, cửa sổ và nhãn giao diện ưu tiên tiếng Việt.
 - Giao diện VADA dùng nền #000000 và hiển thị rõ phiên bản hiện tại.

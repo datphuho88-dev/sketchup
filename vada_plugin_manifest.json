@@ -132,6 +132,25 @@
       "extension_names": [
         "VADA Plugin Manager"
       ]
+    },
+    {
+      "id": "tao_phong_nhanh",
+      "name": "Tạo phòng nhanh",
+      "latest_version": "1.0.0",
+      "loader_candidates": [
+        "vada_quick_room.rb"
+      ],
+      "hot_reload": true,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/09%20-%20T%E1%BA%A1o%20ph%C3%B2ng%20nhanh/v1.0.0/VADA_Tao_Phong_Nhanh_v1.0.0.rbz",
+      "repo_path": "09 - Tạo phòng nhanh",
+      "extension_names": [
+        "VADA Tạo Phòng Nhanh",
+        "Tạo phòng nhanh"
+      ],
+      "detect_tokens": [
+        "Tạo Phòng Nhanh",
+        "QuickRoom"
+      ]
     }
   ]
 }
