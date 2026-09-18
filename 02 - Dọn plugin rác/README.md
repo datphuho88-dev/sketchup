@@ -27,6 +27,7 @@ Plugin tìm, kiểm tra, thử hiển thị, tắt, cách ly, gỡ hẳn và kh�
 ## File phát hành
 
 - v1.4.2/VADA_Don_Plugin_v1.4.2.rbz
+- v1.4.2/VADA_Don_Plugin_v1.4.2_source.zip
 - v1.4.1/VADA_Don_Plugin_v1.4.1.rbz
 - v1.4.1/VADA_Don_Plugin_v1.4.1_source.zip
 - v1.4.0/VADA_Don_Plugin_v1.4.0.rbz
