@@ -15,7 +15,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 07 | ◻️ Tính tổng diện tích | v1.0.1 | Có RBZ + source |
 | 08 | 🔄 VADA Plugin Manager | v1.3.3 | Có RBZ + source |
 | 09 | 🏠 Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
-| 10 | 🗂️ VADA Workspace Manager | v1.0.2 | Có RBZ + source |
+| 10 | 🗂️ VADA Workspace Manager | v1.0.3 | Có RBZ + source |
 | 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
@@ -113,14 +113,14 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Đổi tên group phía trên từ **Mái** thành **Trần** để dễ quản lý trong Outliner.
 - Giữ nguyên cách nhập kích thước và cách đặt phòng của v1.0.0.
 
-### 🗂️ 10 - VADA Workspace Manager — v1.0.2
-- Thêm ô **Tìm nhanh toolbar / plugin** theo tên.
-- Thêm bộ lọc **TẤT CẢ / ĐANG HIỆN / ĐANG ẨN / MỚI / GIỮ**.
-- Toolbar đang hiện luôn được đưa lên đầu danh sách, không phải cuộn xuống tìm.
-- Hiển thị số kết quả đang lọc trên tổng số toolbar.
-- Giữ trạng thái các ô **GIỮ** khi tìm kiếm/lọc.
-- Phím `/` để tập trung ô tìm kiếm và `Esc` để xóa tìm kiếm.
-- Giữ nguyên toàn bộ cơ chế ẩn/hiện trực tiếp `UI::Toolbar`, profile, hoàn tác và tự dọn của v1.0.1.
+### 🗂️ 10 - VADA Workspace Manager — v1.0.3
+- Sửa trường hợp vừa **DỌN NHANH PLUGIN** xong nhưng một số toolbar/icon lại tự xuất hiện.
+- Khi người dùng thao tác thủ công, plugin hủy các lượt startup cleanup còn chờ để không áp profile cũ.
+- Sau khi dọn, kiểm tra lại theo các lượt ngắn `0.15 / 0.5 / 1.2 / 2.5 / 4 giây` để bắt toolbar do extension khác tự bật trễ.
+- Thêm **CHỌN TẤT CẢ KẾT QUẢ / BỎ CHỌN TẤT CẢ / ẨN ĐÃ CHỌN / HIỆN ĐÃ CHỌN**.
+- Chọn tất cả chỉ áp dụng cho danh sách đang lọc/tìm kiếm.
+- Tách rõ checkbox **CHỌN** thao tác hàng loạt và checkbox **GIỮ** cho Dọn nhanh.
+- Toolbar đang hiện vẫn được ưu tiên lên đầu; giữ tìm kiếm và bộ lọc của v1.0.2.
 
 
 ### ✏️ 11 - Quản lý Style Dim & Ghi chú — v1.2.0
