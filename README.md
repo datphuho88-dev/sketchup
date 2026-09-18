@@ -8,7 +8,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 |---|---|---:|---|
 | 01 | Ghi kích thước tự động | v1.1.0 | Chưa đủ RBZ + source đã kiểm thử |
 | 02 | Dọn plugin rác | v1.3.0 | Có RBZ + source |
-| 03 | Tìm công cụ nhanh | v0.4.1 | RBZ bản mới nhất chưa có |
+| 03 | Tìm công cụ nhanh | v0.4.2 | Có RBZ + source |
 | 04 | Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
@@ -31,11 +31,12 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Cải thiện vùng Cách ly và nhận diện thư viện phụ thuộc.
 - Giảm nguy cơ thao tác nhầm với LibFredo, TT_Lib và AMS_Lib.
 
-### 03 - Tìm công cụ nhanh — v0.4.1
-- Sửa chức năng gỡ ghim.
-- Cải thiện quản lý nhóm ghim: tạo, đổi tên, xóa nhóm.
-- Giữ khả năng lưu/khôi phục các ghim sau khi khởi động lại SketchUp.
-- Bản v0.4.1 hiện chưa có RBZ trong kho.
+### 03 - Tìm công cụ nhanh — v0.4.2
+- Thêm ghim/hiện riêng từng nhóm toolbar.
+- Thêm ẩn riêng từng nhóm mà không xóa các công cụ đã ghim.
+- Lưu trạng thái hiện/ẩn của từng nhóm và tự khôi phục sau khi mở lại SketchUp.
+- Giữ nguyên gỡ ghim, quản lý nhóm, tên gợi nhớ và phím tắt.
+- Có đầy đủ RBZ + source archive của v0.4.2.
 
 ### 04 - Tạo mặt cắt và góc nhìn — v1.6.0
 - Thêm Scene `ALL` nhìn tổng toàn bộ model.
