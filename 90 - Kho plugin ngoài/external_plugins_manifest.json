@@ -11,6 +11,17 @@
       "rbz_url": "",
       "sha256": "",
       "updated_at": "2026-09-18T22:37:54Z"
+    },
+    {
+      "key": "profile_builder_3_7be1789",
+      "name": "Profile Builder 3",
+      "version": "3.2.1",
+      "creator": "mind.sight.studios",
+      "description": "Profile Builder allows parametric modelling and editing of building materials.  This plugin uses the javascript library wz_jsgraphics.js which is free software under the terms of the LGPL license.  Open the file for further details. Some icons have been created by Visual Pharm (website:icons8.com) and are licensed for commercial use.",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:38:25Z"
     }
   ]
 }
