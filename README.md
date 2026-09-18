@@ -90,6 +90,15 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Chỉ ẩn/hiện toolbar; không uninstall hoặc disable extension.
 
 
+### 11 - Quản lý Style Dim & Ghi chú — v1.0.1
+- Lưu preset Style độc lập với file SKP để dùng lại khi mở file người khác gửi.
+- Đổi nhanh đơn vị mm/cm/m/in/ft, hiện hoặc ẩn hậu tố đơn vị và chỉnh độ chính xác.
+- Dimension: màu, kiểu mũi tên, hướng chữ và vị trí chữ.
+- Ghi chú: màu, leader theo View/Model, kiểu mũi tên và độ dày leader.
+- Áp cho toàn model hoặc chỉ đối tượng đang chọn; có nút mở Model Info cho thiết lập native.
+- SketchUp 2023 không có Ruby API để đổi font/cỡ chữ Dimension hoặc Text; plugin lưu lựa chọn font trong preset và chỉ áp khi API của phiên bản SketchUp hỗ trợ.
+- v1.0.1 hoàn thiện kiểm tra khả năng API font theo capability thực tế.
+
 ## Cấu trúc chuẩn
 
 - Thư mục plugin dùng số thứ tự 01 đến 100.
