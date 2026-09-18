@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VADA - Tính tổng độ dài cạnh</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #000; color: #f5f5f5; font-family: Segoe UI, Arial, sans-serif; }
+  body { padding: 14px; }
+  .top { display:flex; gap:10px; align-items:center; justify-content:space-between; margin-bottom:12px; }
+  .title { font-size:17px; font-weight:700; }
+  .ver { color:#8b8b8b; font-size:12px; white-space:nowrap; }
+  .stats { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:12px; }
+  .card { border:1px solid #252525; background:#0b0b0b; border-radius:10px; padding:12px; }
+  .label { color:#8e8e8e; font-size:12px; margin-bottom:5px; }
+  .value { font-size:22px; font-weight:800; line-height:1.15; }
+  .total { color:#00dcff; }
+  .actions { display:flex; gap:8px; margin-bottom:12px; }
+  button, select { background:#111; color:#fff; border:1px solid #333; border-radius:8px; min-height:36px; padding:7px 10px; font-size:13px; }
+  button { cursor:pointer; }
+  button:hover { border-color:#5a5a5a; background:#171717; }
+  .clear { margin-left:auto; color:#ff7878; }
+  .hint { color:#a7a7a7; font-size:12px; line-height:1.45; margin:0 0 12px; padding:10px 11px; border-left:3px solid #00dcff; background:#090909; }
+  .table-wrap { border:1px solid #252525; border-radius:10px; overflow:hidden; }
+  table { width:100%; border-collapse:collapse; }
+  th { text-align:left; color:#909090; font-size:11px; font-weight:600; background:#0b0b0b; padding:9px 10px; border-bottom:1px solid #252525; }
+  td { padding:10px; border-bottom:1px solid #171717; font-size:13px; vertical-align:middle; }
+  tr:last-child td { border-bottom:0; }
+  td.num { width:42px; color:#777; }
+  td.length { font-weight:800; color:#ff3b3b; }
+  td.remove { width:42px; text-align:right; }
+  .x { width:28px; min-height:28px; height:28px; padding:0; border-radius:6px; color:#ff7777; }
+  .empty { padding:22px 14px; color:#747474; text-align:center; font-size:13px; }
+  .footer { margin-top:10px; color:#555; font-size:11px; text-align:right; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div class="title">Tính tổng độ dài cạnh</div>
+    <div class="ver" id="version">v1.0.1</div>
+  </div>
+
+  <div class="stats">
+    <div class="card"><div class="label">Đã chọn</div><div class="value" id="count">0 cạnh</div></div>
+    <div class="card"><div class="label">Tổng độ dài</div><div class="value total" id="total">0.000 m</div></div>
+  </div>
+
+  <div class="actions">
+    <select id="unit" aria-label="Đơn vị độ dài">
+      <option value="m">m</option>
+      <option value="cm">cm</option>
+      <option value="mm">mm</option>
+    </select>
+    <button id="clear" class="clear" type="button">Xóa tất cả</button>
+  </div>
+
+  <p class="hint">Click trực tiếp vào cạnh dù cạnh đang nằm trong Group/Component. Click lại cùng cạnh để bỏ chọn. Nhấn ESC để xóa toàn bộ.</p>
+
+  <div class="table-wrap">
+    <table id="table" hidden>
+      <thead><tr><th>#</th><th>Chiều dài cạnh</th><th></th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty">Chưa có cạnh nào được chọn.</div>
+  </div>
+
+  <div class="footer">Công ty TNHH VADA</div>
+
+<script>
+(function(){
+  const elCount = document.getElementById('count');
+  const elTotal = document.getElementById('total');
+  const elRows = document.getElementById('rows');
+  const elEmpty = document.getElementById('empty');
+  const elTable = document.getElementById('table');
+  const elUnit = document.getElementById('unit');
+  const elVersion = document.getElementById('version');
+
+  window.VADA_EDGE = {
+    update(data) {
+      elVersion.textContent = 'v' + data.version;
+      elCount.textContent = data.count + ' cạnh';
+      elTotal.textContent = data.total + ' ' + data.unit_label;
+      elUnit.value = data.unit;
+      elRows.textContent = '';
+
+      data.rows.forEach(row => {
+        const tr = document.createElement('tr');
+        const c1 = document.createElement('td'); c1.className = 'num'; c1.textContent = row.index;
+        const c2 = document.createElement('td'); c2.className = 'length'; c2.textContent = row.length + ' ' + row.unit;
+        const c3 = document.createElement('td'); c3.className = 'remove';
+        const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'x'; btn.textContent = '×'; btn.title = 'Bỏ cạnh này';
+        btn.addEventListener('click', () => window.sketchup && sketchup.removeEdge(row.key));
+        c3.appendChild(btn); tr.append(c1,c2,c3); elRows.appendChild(tr);
+      });
+
+      const hasRows = data.rows.length > 0;
+      elTable.hidden = !hasRows;
+      elEmpty.hidden = hasRows;
+    }
+  };
+
+  document.getElementById('clear').addEventListener('click', () => window.sketchup && sketchup.clearAll());
+  elUnit.addEventListener('change', () => window.sketchup && sketchup.setUnit(elUnit.value));
+
+  if (window.sketchup) sketchup.uiReady();
+})();
+</script>
+</body>
+</html>
