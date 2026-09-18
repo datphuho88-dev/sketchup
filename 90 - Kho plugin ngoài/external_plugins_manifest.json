@@ -35,6 +35,17 @@
       "updated_at": "2026-09-18T22:40:55Z"
     },
     {
+      "key": "hung_tu_bep_74d3036",
+      "name": "Hùng Tủ Bếp",
+      "version": "1.0.0",
+      "creator": "Phạm Văn Hùng",
+      "description": "Plugin hỗ trợ vẽ tủ bếp tự động chuẩn CNC.",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:41:06Z"
+    },
+    {
       "key": "sketchuv_c942d02",
       "name": "SketchUV",
       "version": "1.0.2",
