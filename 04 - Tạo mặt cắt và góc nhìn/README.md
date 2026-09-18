@@ -1,24 +1,18 @@
-# VADA Section View Generator
+# 04 - Tạo mặt cắt và góc nhìn
 
-Plugin tạo nhanh hệ mặt cắt và scene nhìn cho SketchUp.
+**Phiên bản mới nhất:** v1.5.0
 
-**Bản hiện tại:** `v1.5.0`
+Plugin tạo nhanh Section Plane và Scene tương ứng cho SketchUp.
 
-## Bản v1.5.0
+## v1.5.0
 
-- Tạo 6 Scene tương ứng 6 hướng khác nhau của khối:
-  - `MB`: mặt trên.
-  - `VIEW TRẦN`: mặt dưới.
-  - `MD1`: mặt trước.
-  - `MD2`: mặt sau.
-  - `MC1`: mặt trái.
-  - `MC2`: mặt phải.
-- Mỗi Scene có Section Plane riêng và kích hoạt đúng mặt cắt tương ứng.
-- Camera dùng **Perspective**, FOV khoảng **35°**.
-- Camera nhìn cùng hướng với pháp tuyến Section Plane tương ứng.
-- Sửa lỗi `MD2` và `MC2` bị trùng hướng ở bản trước.
-- Giao diện tiếng Việt, nền đen, có toolbar/icon và hiển thị mã phiên bản.
+- Tạo 6 hướng: MB, VIEW TRẦN, MD1, MD2, MC1, MC2.
+- Mỗi Scene dùng đúng Section Plane tương ứng.
+- Camera dùng Perspective, FOV khoảng 35°.
+- Camera nhìn cùng hướng với mặt cắt.
+- Sửa lỗi MD2 và MC2 bị trùng hướng.
 
-## File cài đặt
+## File phát hành
 
-Bản phát hành nằm trong thư mục `v1.5.0`, gồm file `.rbz` và gói source.
+- v1.5.0/VADA_Tao_Mat_Cat_View_v1.5.0.rbz
+- v1.5.0/VADA_Tao_Mat_Cat_View_v1.5.0_source.zip
