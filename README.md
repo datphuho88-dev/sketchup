@@ -72,9 +72,17 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Tạo nhanh một căn phòng trong SketchUp.
 - Có gói RBZ + source để cài đặt và tiếp tục phát triển.
 
+### 10 - VADA Workspace Manager — v1.0.0
+- Lưu profile trạng thái toolbar đang hiện/ẩn.
+- Quản lý toolbar của plugin VADA và extension bên ngoài qua `UI::Toolbar`.
+- Tùy chọn quản lý cả toolbar gốc SketchUp.
+- Tự dọn sau `onExtensionsLoaded`, kèm vài lượt kiểm tra ngắn; không polling nền liên tục.
+- Phát hiện toolbar mới và đánh dấu `MỚI`.
+- Có dọn nhanh, hoàn tác và nhiều profile workspace.
+
 ## Cấu trúc chuẩn
 
-- Thư mục plugin dùng số thứ tự 01 đến 09.
+- Thư mục plugin dùng số thứ tự 01 đến 10.
 - Mỗi phiên bản mới ưu tiên nằm trong thư mục `vX.Y.Z` và không ghi đè bản cũ.
 - Tên plugin, cửa sổ và nhãn giao diện ưu tiên tiếng Việt.
 - Giao diện VADA dùng nền `#000000` và hiển thị rõ phiên bản hiện tại.

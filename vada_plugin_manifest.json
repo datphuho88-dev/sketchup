@@ -166,6 +166,24 @@
         "Tạo Phòng Nhanh",
         "QuickRoom"
       ]
+    },
+    {
+      "id": "workspace_manager",
+      "name": "VADA Workspace Manager",
+      "latest_version": "1.0.0",
+      "loader_candidates": [
+        "vada_workspace_manager.rb"
+      ],
+      "hot_reload": false,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/10%20-%20VADA%20Workspace%20Manager/v1.0.0/VADA_Workspace_Manager_v1.0.0.rbz",
+      "repo_path": "10 - VADA Workspace Manager",
+      "extension_names": [
+        "VADA Workspace Manager"
+      ],
+      "detect_tokens": [
+        "Workspace Manager",
+        "VADA Workspace"
+      ]
     }
   ]
 }
