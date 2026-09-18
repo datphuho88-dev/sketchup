@@ -193,12 +193,12 @@
     {
       "id": "style_dim_ghi_chu",
       "name": "Quản lý Style Dim & Ghi chú",
-      "latest_version": "1.0.1",
+      "latest_version": "1.1.0",
       "loader_candidates": [
         "vada_style_dim_notes.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/11%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Style%20Dim%20%26%20Ghi%20ch%C3%BA/v1.0.1/VADA_Quan_Ly_Style_Dim_Ghi_Chu_v1.0.1.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/11%20-%20Qu%E1%BA%A3n%20l%C3%BD%20Style%20Dim%20%26%20Ghi%20ch%C3%BA/v1.1.0/VADA_Quan_Ly_Style_Dim_Ghi_Chu_v1.1.0.rbz",
       "repo_path": "11 - Quản lý Style Dim & Ghi chú",
       "extension_names": [
         "VADA - Quản lý Style Dim & Ghi chú",
