@@ -13,7 +13,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 05 | Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
 | 07 | Tính tổng diện tích | v1.0.1 | Có RBZ + source; RBZ hiện nằm ở đường dẫn legacy |
-| 08 | VADA Plugin Manager | v1.2.0 | Có RBZ + source |
+| 08 | VADA Plugin Manager | v1.3.0 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.0.0 | Có RBZ + source |
 
 ## Ghi chú phiên bản mới nhất
@@ -58,12 +58,12 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - RBZ v1.0.1 đã có trong repo nhưng hiện nằm tại đường dẫn legacy `VADA-Tong-Dien-Tich/...`.
 - Cần tiếp tục chuẩn hóa RBZ vào đúng thư mục `07 - Tính tổng diện tích` để cấu trúc phát hành đồng nhất.
 
-### 08 - VADA Plugin Manager — v1.2.0
-- Cải thiện nhận diện plugin và phiên bản đang cài trên máy.
-- Ưu tiên lấy phiên bản từ SketchUp Extensions; fallback khi cần.
-- Sửa lỗi nhận diện sai/không nhận diện được phiên bản cài đặt.
-- Đồng bộ đường dẫn Plugin Manager về thư mục số 08.
-- Giữ cơ chế quét Git tree để tìm phiên bản GitHub mới nhất.
+### 08 - VADA Plugin Manager — v1.3.0
+- Plugin mới trên GitHub nhưng chưa cài trong SketchUp được đưa lên đầu danh sách.
+- Có nút **Cài mới** và tự phát hiện plugin mới từ cây thư mục GitHub.
+- Giữ cơ chế nhận diện phiên bản từ SketchUp Extensions, fallback quét file Ruby.
+- Hỗ trợ `reload_candidates` để reload phần core an toàn.
+- `Tạo mặt cắt và góc nhìn` dùng hot reload phần core nên cập nhật logic không còn mặc định yêu cầu restart.
 
 ### 09 - Tạo phòng nhanh — v1.0.0
 - Phiên bản phát hành đầu tiên.
