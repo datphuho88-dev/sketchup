@@ -2,18 +2,23 @@
 
 Plugin tạo nhanh hệ mặt cắt và scene nhìn cho SketchUp.
 
-**Bản hiện tại:** `v1.4.0`
+**Bản hiện tại:** `v1.5.0`
 
-## Yêu cầu của bản hiện tại
+## Bản v1.5.0
 
-- Tạo các scene: `MB`, `MD1`, `MD2`, `MC1`, `MC2`, `View trần`.
-- Có Section Plane tương ứng cho từng hướng cần cắt.
-- Các view nhìn cùng hướng với Section Plane tương ứng.
-- `MD1` và `MD2` có mặt cắt riêng, không dùng chung.
-- Tránh trường hợp `MD2` và `MC2` trùng hướng.
-- Các góc nhìn dùng **Perspective**.
-- Bản v1.4.0 đã dùng camera Perspective, FOV khoảng 35° và camera bám theo hướng Section Plane.
+- Tạo 6 Scene tương ứng 6 hướng khác nhau của khối:
+  - `MB`: mặt trên.
+  - `VIEW TRẦN`: mặt dưới.
+  - `MD1`: mặt trước.
+  - `MD2`: mặt sau.
+  - `MC1`: mặt trái.
+  - `MC2`: mặt phải.
+- Mỗi Scene có Section Plane riêng và kích hoạt đúng mặt cắt tương ứng.
+- Camera dùng **Perspective**, FOV khoảng **35°**.
+- Camera nhìn cùng hướng với pháp tuyến Section Plane tương ứng.
+- Sửa lỗi `MD2` và `MC2` bị trùng hướng ở bản trước.
+- Giao diện tiếng Việt, nền đen, có toolbar/icon và hiển thị mã phiên bản.
 
-## Trạng thái mã nguồn
+## File cài đặt
 
-Cấu trúc GitHub đã được tạo. Source/RBZ chính xác của `v1.4.0` cần lấy lại từ artifact cũ để giữ đúng bản đã kiểm thử.
+Bản phát hành nằm trong thư mục `v1.5.0`, gồm file `.rbz` và gói source.
