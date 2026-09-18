@@ -7,7 +7,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | # | Plugin | Phiên bản mới nhất | Gói cài |
 |---|---|---:|---|
 | 01 | 📏 Ghi kích thước tự động | v1.1.0 | Chưa đủ RBZ + source đã kiểm thử |
-| 02 | 🧹 Dọn plugin rác | v1.4.2 | Có RBZ |
+| 02 | 🧹 Dọn plugin rác | v1.4.2 | Có RBZ + source |
 | 03 | 🔎 Tìm công cụ nhanh | v0.4.2 | Có RBZ + source |
 | 04 | ✂️ Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | 📐 Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
