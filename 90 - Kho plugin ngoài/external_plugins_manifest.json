@@ -24,6 +24,17 @@
       "updated_at": "2026-09-18T22:40:33Z"
     },
     {
+      "key": "dimray_67e8a93",
+      "name": "DimRay",
+      "version": "1.0.0",
+      "creator": "QuocPhan",
+      "description": "",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:40:55Z"
+    },
+    {
       "key": "sketchuv_c942d02",
       "name": "SketchUV",
       "version": "1.0.2",
