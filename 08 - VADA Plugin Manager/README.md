@@ -1,34 +1,23 @@
-# 08 - VADA Plugin Manager
+# VADA Plugin Manager
 
-**Phiên bản mới nhất:** v1.2.0
+**Phiên bản mới nhất: v1.3.0**
 
-Plugin quản lý và kiểm tra cập nhật các plugin VADA từ GitHub.
+Plugin quản lý chung cho bộ plugin SketchUp VADA.
 
-## v1.2.0
+## Chức năng
+- Quét phiên bản mới trực tiếp từ GitHub.
+- Nhận diện phiên bản đang cài từ SketchUp Extensions, fallback quét file Ruby.
+- Plugin chưa cài nhưng có trên GitHub được đưa lên đầu danh sách để **Cài mới**.
+- Cập nhật từng plugin hoặc cập nhật tất cả.
+- Reload plugin an toàn khi có cấu hình reload core.
+- Plugin không reload an toàn sẽ báo cần mở lại SketchUp.
 
-### Cập nhật
-- Cải thiện nhận diện plugin đang cài trên máy.
-- Ưu tiên lấy phiên bản từ SketchUp Extensions.
-- Fallback sang nhận diện loader/file khi không lấy được từ Extensions.
-- Đồng bộ Plugin Manager về đúng thư mục số 08.
-- Giữ cơ chế quét Git tree để tìm phiên bản `vX.Y.Z` cao nhất.
+## Mới ở v1.3.0
+- Sắp plugin mới chưa cài lên đầu.
+- Tự phát hiện plugin mới từ cây thư mục GitHub.
+- Hỗ trợ reload core cho `Tạo mặt cắt và góc nhìn`.
 
-### Sửa lỗi
-- Sửa trường hợp GitHub đã có bản mới nhưng Plugin Manager không nhận diện đúng bản đang cài.
-- Sửa trường hợp phiên bản máy bị trống hoặc nhận sai.
-- Sửa đường dẫn phát hành của chính VADA Plugin Manager.
+## Gói cài
+`VADA_Plugin_Manager_v1.3.0.rbz`
 
-## v1.1.0
-
-- Quét Git tree của repository bằng một request.
-- Tự tìm thư mục phiên bản `vX.Y.Z` cao nhất của từng plugin.
-- Tự tìm file RBZ của phiên bản mới nhất.
-- Không phụ thuộc hoàn toàn vào `latest_version` trong manifest.
-- Chỉ bật nút cập nhật khi GitHub có bản mới hơn máy.
-- Hiển thị thời điểm quét và số plugin có cập nhật.
-- Hỗ trợ hot reload với plugin phù hợp; plugin khác sẽ báo cần khởi động lại SketchUp.
-
-## File phát hành
-
-- `v1.2.0/VADA_Plugin_Manager_v1.2.0.rbz`
-- Source nằm trong `v1.2.0/source/`.
+Cài bằng **SketchUp Extension Manager**.
