@@ -65,12 +65,12 @@
     {
       "id": "mat_cat_goc_nhin",
       "name": "Tạo mặt cắt và góc nhìn",
-      "latest_version": "1.5.0",
+      "latest_version": "1.6.0",
       "loader_candidates": [
         "vada_mat_cat_view.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/04%20-%20T%E1%BA%A1o%20m%E1%BA%B7t%20c%E1%BA%AFt%20v%C3%A0%20g%C3%B3c%20nh%C3%ACn/v1.5.0/VADA_Tao_Mat_Cat_View_v1.5.0.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/04%20-%20T%E1%BA%A1o%20m%E1%BA%B7t%20c%E1%BA%AFt%20v%C3%A0%20g%C3%B3c%20nh%C3%ACn/v1.6.0/VADA_Tao_Mat_Cat_View_v1.6.0.rbz",
       "repo_path": "04 - Tạo mặt cắt và góc nhìn"
     },
     {
@@ -127,7 +127,7 @@
         "vada_plugin_manager.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/08%20-%20VADA%20Plugin%20Manager/v1.2.0/VADA_Plugin_Manager_v1.2.0.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/07%20-%20VADA%20Plugin%20Manager/v1.2.0/VADA_Plugin_Manager_v1.2.0.rbz",
       "repo_path": "08 - VADA Plugin Manager",
       "extension_names": [
         "VADA Plugin Manager"
