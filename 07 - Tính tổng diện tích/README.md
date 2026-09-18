@@ -25,7 +25,7 @@ Plugin click trực tiếp các Face trong Group/Component để cộng tổng d
 
 ## Trạng thái phát hành
 
-- Source v1.0.1 đã có trong thư mục plugin số 07.
-- RBZ v1.0.1 đã có trên repo nhưng hiện còn nằm ở đường dẫn legacy:
-  `VADA-Tong-Dien-Tich/releases/VADA_Tong_Dien_Tich_v1.0.1.rbz`
-- Cần chuẩn hóa RBZ v1.0.1 vào thư mục `07 - Tính tổng diện tích` để toàn bộ cấu trúc thống nhất.
+- Source v1.0.1 nằm trong thư mục plugin số 07.
+- RBZ v1.0.1: `releases/VADA_Tong_Dien_Tich_v1.0.1.rbz`.
+- Source ZIP v1.0.1: `releases/VADA_Tong_Dien_Tich_v1.0.1_Source.zip`.
+- Cấu trúc đã được chuẩn hóa, không còn phụ thuộc đường dẫn legacy.
