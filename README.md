@@ -16,7 +16,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 08 | VADA Plugin Manager | v1.3.3 | Có RBZ + source |
 | 09 | Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
 | 10 | VADA Workspace Manager | v1.0.2 | Có RBZ + source |
-| 11 | Quản lý Style Dim & Ghi chú | v1.0.1 | Có RBZ + source |
+| 11 | Quản lý Style Dim & Ghi chú | v1.1.0 | Có RBZ + source |
 
 ## Ghi chú phiên bản mới nhất
 
@@ -90,6 +90,14 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Phím `/` để tập trung ô tìm kiếm và `Esc` để xóa tìm kiếm.
 - Giữ nguyên toàn bộ cơ chế ẩn/hiện trực tiếp `UI::Toolbar`, profile, hoàn tác và tự dọn của v1.0.1.
 
+
+### 11 - Quản lý Style Dim & Ghi chú — v1.1.0
+- Sửa lỗi Style chỉ áp cho Dim đã có; Dim tạo mới quay về style cũ.
+- Thêm tự áp preset cho Dimension/Ghi chú mới bằng `EntitiesObserver`, không polling nền.
+- Theo dõi model root và `active_entities` để hoạt động khi chỉnh sửa trong Group/Component.
+- Thêm bật/tắt riêng cho Dim mới và Ghi chú mới.
+- Làm nổi bật tùy chọn **CHỮ DIM ĐẬM (Bold)**.
+- SketchUp 2023 không có Ruby API để đổi font/cỡ/Bold của Dimension; cần đặt Bold native một lần trong **Model Info → Dimensions** của file.
 
 ## Cấu trúc chuẩn
 
