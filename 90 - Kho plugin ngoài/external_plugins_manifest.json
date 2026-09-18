@@ -13,6 +13,17 @@
       "updated_at": "2026-09-18T22:40:17Z"
     },
     {
+      "key": "5d_auto_tag_738aaa2",
+      "name": "5D+ Auto Tag",
+      "version": "2.0.0",
+      "creator": "Trinh Vu Cuong (cyentruk@gmail.com)",
+      "description": "Tags Manager",
+      "source_url": "",
+      "rbz_url": "",
+      "sha256": "",
+      "updated_at": "2026-09-18T22:40:33Z"
+    },
+    {
       "key": "sketchuv_c942d02",
       "name": "SketchUV",
       "version": "1.0.2",
