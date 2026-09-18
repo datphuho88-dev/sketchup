@@ -30,13 +30,13 @@
     {
       "id": "don_plugin_rac",
       "name": "Dọn plugin rác",
-      "latest_version": "1.3.0",
+      "latest_version": "1.4.0",
       "loader_candidates": [
         "vada_extension_cleaner.rb",
         "vada_don_plugin_rac.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/02%20-%20D%E1%BB%8Dn%20plugin%20r%C3%A1c/v1.3.0/VADA_Don_Plugin_v1.3.0.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/02%20-%20D%E1%BB%8Dn%20plugin%20r%C3%A1c/v1.4.0/VADA_Don_Plugin_v1.4.0.rbz",
       "repo_path": "02 - Dọn plugin rác"
     },
     {
