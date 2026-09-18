@@ -13,7 +13,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 05 | 📐 Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | 🧱 Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
 | 07 | ◻️ Tính tổng diện tích | v1.0.1 | Có RBZ + source |
-| 08 | 🔄 VADA Plugin Manager | v1.3.3 | Có RBZ + source |
+| 08 | 🔄 VADA Plugin Manager | v1.4.0 | Có RBZ + source |
 | 09 | 🏠 Tạo phòng nhanh | v1.1.0 | Có RBZ + source |
 | 10 | 🗂️ VADA Workspace Manager | v1.0.3 | Có RBZ + source |
 | 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
@@ -98,20 +98,16 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - RBZ v1.0.1 và source đã được chuẩn hóa vào đúng thư mục `07 - Tính tổng diện tích`.
 - Đường dẫn legacy đã được loại bỏ sau khi sao lưu đầy đủ file phiên bản.
 
-### 🔄 08 - VADA Plugin Manager — v1.3.3
-- Sửa lỗi nhận sai phiên bản máy (ví dụ v1.6.0 bị đọc thành v1.0.3).
-- Ưu tiên Extension chính xác và đối chiếu thêm loader/core để lấy phiên bản cao nhất hợp lệ.
-- Sửa lỗi đóng cửa sổ rồi mở lại bị trắng.
-- Tự tạo HtmlDialog mới sau khi cửa sổ cũ đã đóng.
-- Tự kiểm tra GitHub khi mở và bổ sung danh mục offline đầy đủ 01-10.
-- Tạo phòng nhanh được hiển thị ngay cả trước khi quét GitHub.
-- Sửa lỗi toolbar/icon không hiện sau khi cài v1.3.0.
-- Giữ tham chiếu toolbar và tự ép hiển thị sau khi SketchUp khởi tạo UI.
-- Plugin mới trên GitHub nhưng chưa cài trong SketchUp được đưa lên đầu danh sách.
-- Có nút **Cài mới** và tự phát hiện plugin mới từ cây thư mục GitHub.
-- Giữ cơ chế nhận diện phiên bản từ SketchUp Extensions, fallback quét file Ruby.
-- Hỗ trợ `reload_candidates` để reload phần core an toàn.
-- `Tạo mặt cắt và góc nhìn` dùng hot reload phần core nên cập nhật logic không còn mặc định yêu cầu restart.
+### 🔄 08 - VADA Plugin Manager — v1.4.0
+- Thêm tab **KHO PLUGIN NGOÀI** để quét extension ngoài đang cài trên máy.
+- Có thể lưu metadata: tên, version, tác giả và link nguồn.
+- Plugin người dùng có quyền sao lưu/phân phối có thể được đóng gói thành RBZ và lưu trong `90 - Kho plugin ngoài`.
+- Mỗi version được giữ riêng; máy khác đọc `external_plugins_manifest.json` và có nút **CÀI NHANH**.
+- Kiểm tra SHA-256 trước khi cài gói đã lưu.
+- GitHub token chỉ giữ trong RAM phiên SketchUp, không ghi xuống file.
+- Plugin có `.rbe/.rbs` không được tự đưa RBZ lên repo công khai; chỉ lưu metadata/link nguồn.
+- Giữ nguyên kiểm tra GitHub, cài mới/cập nhật, nhận diện version và reload an toàn.
+
 
 ### 🏠 09 - Tạo phòng nhanh — v1.1.0
 - Tự động tô màu phân biệt **Sàn / Tường / Trần** ngay sau khi tạo phòng.
