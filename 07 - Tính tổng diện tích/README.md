@@ -1,33 +1,22 @@
-# VADA - Tính tổng diện tích mặt
+# 07 - Tính tổng diện tích
 
-Phiên bản: **1.0.1**
+**Phiên bản source mới nhất:** v1.0.1  
+**RBZ hiện có trong kho:** v1.0.0
+
+Plugin click trực tiếp các Face trong Group/Component để cộng tổng diện tích.
 
 ## Chức năng
 
-- Đứng ngoài Group/Component vẫn click trực tiếp được Face bên trong.
-- Hiển thị diện tích từng mặt.
-- Cộng tổng diện tích các mặt đã chọn.
-- Tính đúng khi Group/Component có scale/transform.
-- Click lại cùng mặt để bỏ chọn.
-- Xóa từng mặt hoặc xóa tất cả.
+- Click mặt khi đang đứng ngoài Group/Component.
+- Tính đúng khi đối tượng có scale/transform.
+- Click lại để bỏ chọn.
+- Hiển thị diện tích từng mặt và tổng diện tích.
 - Đổi đơn vị m² / cm² / mm².
-- Viền xanh: mặt đã chọn.
-- Viền vàng: mặt đang rê chuột.
-- ESC: xóa toàn bộ danh sách.
+- Bản v1.0.1 dùng chữ đỏ, badge #1, #2... và nền tối phía sau chữ.
 
-## Cài đặt
+## Cấu trúc hiện có
 
-1. SketchUp → Extension Manager.
-2. Install Extension.
-3. Chọn file `VADA_Tong_Dien_Tich_v1.0.1.rbz`.
-4. Bật toolbar **VADA - Diện tích** nếu chưa thấy.
+- releases/VADA_Tong_Dien_Tich_v1.0.0.rbz
+- versions/v1.0.1/source/
 
-Công ty TNHH VADA
-
-
-## Mới trong v1.0.1
-- Diện tích trên model đổi sang chữ đỏ.
-- Số thứ tự hiển thị thành badge `#1`, `#2`... tách riêng khỏi diện tích.
-- Thêm nền tối phía sau chữ để đọc rõ trên mọi vật liệu.
-- Tổng diện tích trên viewport có nền và chữ đỏ.
-- Số đo trong cửa sổ danh sách và tổng diện tích đổi sang đỏ.
+> Cần đóng gói thêm RBZ v1.0.1 để cấu trúc phát hành đồng bộ hoàn toàn.
