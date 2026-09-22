@@ -229,6 +229,26 @@
         "Chọn toàn bộ DIM",
         "Select All Dim"
       ]
+    },
+    {
+      "id": "click_sau_mat_canh",
+      "name": "Click Sâu Mặt Cạnh",
+      "latest_version": "1.0.1",
+      "loader_candidates": [
+        "vada_click_sau.rb"
+      ],
+      "hot_reload": false,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/13%20-%20Click%20S%C3%A2u%20M%E1%BA%B7t%20C%E1%BA%A1nh/v1.0.1/VADA_Click_Sau_Mat_Canh_v1.0.1.rbz",
+      "repo_path": "13 - Click Sâu Mặt Cạnh",
+      "extension_names": [
+        "VADA - Click Sâu Mặt Cạnh",
+        "Click Sâu Mặt Cạnh"
+      ],
+      "detect_tokens": [
+        "Click Sâu",
+        "Mặt Cạnh",
+        "Deep Pick"
+      ]
     }
   ]
 }

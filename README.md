@@ -18,6 +18,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 10 | 🗂️ VADA Workspace Manager | v1.0.3 | Có RBZ + source |
 | 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
 | 12 | 📌 Chọn toàn bộ DIM | v1.1.0 | Có RBZ |
+| 13 | 🎯 Click Sâu Mặt Cạnh | v1.0.1 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -37,6 +38,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - 🗂️ `10 - VADA Workspace Manager/`
 - ✏️ `11 - Quản lý Style Dim & Ghi chú/`
 - 📌 `12 - Chọn toàn bộ DIM/`
+- 🎯 `13 - Click Sâu Mặt Cạnh/`
 
 ### 📄 Quy ước tệp
 - 📦 `*.rbz` — file cài plugin.
@@ -150,6 +152,14 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Tối ưu quét bằng cache và tự làm mới cache khi model thay đổi.
 - Giao diện tiếng Việt nền #000000 và hiển thị version v1.1.0.
 - File RBZ v1.1.0 đã được lưu riêng, không ghi đè v1.0.0.
+
+### 🎯 13 - Click Sâu Mặt Cạnh — v1.0.1
+- Click trực tiếp Face/Edge nằm sâu trong nhiều lớp Group/Component mà không cần mở từng cấp thủ công.
+- Tự mở đúng chuỗi edit-context rồi chọn đối tượng để tiếp tục chỉnh sửa bằng Select Tool.
+- Hover/đối tượng mục tiêu hiển thị màu đỏ: Face phủ đỏ bán trong suốt + viền đỏ; Edge dùng nét đỏ rõ.
+- Giữ Shift + Click để thêm/bớt đối tượng trong vùng chọn.
+- Có toolbar/icon riêng, menu tiếng Việt và hiển thị version v1.0.1.
+- Giữ đầy đủ lịch sử v1.0.0 và v1.0.1; RBZ/source mỗi phiên bản lưu riêng.
 
 ## 🧱 Cấu trúc chuẩn
 
