@@ -269,6 +269,24 @@
         "Group Chưa Có Vật Liệu",
         "ToMauGroup"
       ]
+    },
+    {
+      "id": "giam_poly",
+      "name": "VADA Giảm Poly",
+      "latest_version": "1.1.0",
+      "loader_candidates": [
+        "VADA_Giam_Poly.rb"
+      ],
+      "hot_reload": false,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/15%20-%20VADA%20Gi%E1%BA%A3m%20Poly/v1.1.0/VADA_Giam_Poly_v1.1.0.rbz",
+      "repo_path": "15 - VADA Giảm Poly",
+      "extension_names": [
+        "VADA Giảm Poly"
+      ],
+      "detect_tokens": [
+        "Giảm Poly",
+        "Giam Poly"
+      ]
     }
   ]
 }
