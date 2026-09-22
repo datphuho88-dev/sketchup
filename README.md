@@ -20,6 +20,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 12 | 📌 Chọn toàn bộ DIM | v1.1.0 | Có RBZ |
 | 13 | 🎯 Click Sâu Mặt Cạnh | v1.0.1 | Có RBZ + source |
 | 14 | 🎨 Tô Màu Group Chưa Có Vật Liệu | v1.0.0 | Có RBZ + source |
+| 15 | 🪶 VADA Giảm Poly | v1.1.0 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -41,6 +42,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - 📌 `12 - Chọn toàn bộ DIM/`
 - 🎯 `13 - Click Sâu Mặt Cạnh/`
 - 🎨 `14 - Tô Màu Group Chưa Có Vật Liệu/`
+- 🪶 `15 - VADA Giảm Poly/`
 
 ### 📄 Quy ước tệp
 - 📦 `*.rbz` — file cài plugin.
@@ -172,6 +174,14 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Toàn bộ thao tác nằm trong một SketchUp Operation nên có thể Undo bằng `Ctrl+Z`.
 - Giao diện tiếng Việt nền `#000000`, có icon toolbar và hiển thị version v1.0.0.
 - RBZ và source v1.0.0 được lưu riêng, không ghi đè phiên bản khác.
+
+
+### 🪶 15 - VADA Giảm Poly — v1.1.0
+- Giảm số polygon cho Group/Component trực tiếp trong SketchUp, có Undo và giữ cấu trúc lồng nhau.
+- Bản v1.1.0 tối ưu xử lý mesh lớn: khóa đỉnh số học, giảm số vòng quét, dừng sớm khi vượt mục tiêu và thống kê UI theo từng lô.
+- Thêm **Turbo cho model lớn**, tự ưu tiên tốc độ từ khoảng 50.000 tam giác; vẫn giữ material, chế độ thường tiếp tục giữ UV chi tiết.
+- Giữ riêng đầy đủ **v1.0.0** và **v1.1.0**, mỗi phiên bản có RBZ, source ZIP và README.
+- Sau khi cập nhật nên thoát hoàn toàn SketchUp rồi mở lại để nạp đúng code mới.
 
 ## 🧱 Cấu trúc chuẩn
 
