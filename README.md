@@ -19,6 +19,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 11 | ✏️ Quản lý Style Dim & Ghi chú | v1.2.0 | Có RBZ + source |
 | 12 | 📌 Chọn toàn bộ DIM | v1.1.0 | Có RBZ |
 | 13 | 🎯 Click Sâu Mặt Cạnh | v1.0.1 | Có RBZ + source |
+| 14 | 🎨 Tô Màu Group Chưa Có Vật Liệu | v1.0.0 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -39,6 +40,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - ✏️ `11 - Quản lý Style Dim & Ghi chú/`
 - 📌 `12 - Chọn toàn bộ DIM/`
 - 🎯 `13 - Click Sâu Mặt Cạnh/`
+- 🎨 `14 - Tô Màu Group Chưa Có Vật Liệu/`
 
 ### 📄 Quy ước tệp
 - 📦 `*.rbz` — file cài plugin.
@@ -160,6 +162,16 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Giữ Shift + Click để thêm/bớt đối tượng trong vùng chọn.
 - Có toolbar/icon riêng, menu tiếng Việt và hiển thị version v1.0.1.
 - Giữ đầy đủ lịch sử v1.0.0 và v1.0.1; RBZ/source mỗi phiên bản lưu riêng.
+
+
+### 🎨 14 - Tô Màu Group Chưa Có Vật Liệu — v1.0.0
+- Quét toàn bộ Group trong model, kể cả Group lồng nhau và Group nằm trong Component definition.
+- Chỉ tô Group chưa có vật liệu ở cấp Group; Group đã có vật liệu được giữ nguyên.
+- Mỗi Group nhận một màu khác nhau theo phân bố hue để dễ phân biệt khi model có nhiều Group.
+- Không tô Component Instance, không dùng timer/observer chạy nền.
+- Toàn bộ thao tác nằm trong một SketchUp Operation nên có thể Undo bằng `Ctrl+Z`.
+- Giao diện tiếng Việt nền `#000000`, có icon toolbar và hiển thị version v1.0.0.
+- RBZ và source v1.0.0 được lưu riêng, không ghi đè phiên bản khác.
 
 ## 🧱 Cấu trúc chuẩn
 

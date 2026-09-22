@@ -249,6 +249,26 @@
         "Mặt Cạnh",
         "Deep Pick"
       ]
+    },
+    {
+      "id": "to_mau_group_chua_co_vat_lieu",
+      "name": "Tô Màu Group Chưa Có Vật Liệu",
+      "latest_version": "1.0.0",
+      "loader_candidates": [
+        "vada_to_mau_group.rb"
+      ],
+      "hot_reload": false,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/14%20-%20T%C3%B4%20M%C3%A0u%20Group%20Ch%C6%B0a%20C%C3%B3%20V%E1%BA%ADt%20Li%E1%BB%87u/v1.0.0/VADA_To_Mau_Group_v1.0.0.rbz",
+      "repo_path": "14 - Tô Màu Group Chưa Có Vật Liệu",
+      "extension_names": [
+        "VADA - Tô Màu Group Chưa Có Vật Liệu",
+        "Tô Màu Group Chưa Có Vật Liệu"
+      ],
+      "detect_tokens": [
+        "Tô Màu Group",
+        "Group Chưa Có Vật Liệu",
+        "ToMauGroup"
+      ]
     }
   ]
 }
