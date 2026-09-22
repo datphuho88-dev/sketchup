@@ -8,7 +8,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 |---|---|---:|---|
 | 01 | 📏 Ghi kích thước tự động | v1.1.0 | Chưa đủ RBZ + source đã kiểm thử |
 | 02 | 🧹 Dọn plugin rác | v1.4.2 | Có RBZ + source |
-| 03 | 🔎 Tìm công cụ nhanh | v0.4.3 | Có RBZ + source |
+| 03 | 🔎 Tìm công cụ nhanh | v0.4.4 | Có RBZ |
 | 04 | ✂️ Tạo mặt cắt và góc nhìn | v1.6.0 | Có RBZ + source |
 | 05 | 📐 Tính tổng độ dài cạnh | v1.0.1 | Có RBZ + source |
 | 06 | 🧱 Thống kê sắt hộp | v1.1.1 | Có RBZ + source |
@@ -75,13 +75,12 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Cải thiện vùng Cách ly và nhận diện thư viện phụ thuộc.
 - Giảm nguy cơ thao tác nhầm với LibFredo, TT_Lib và AMS_Lib.
 
-### 🔎 03 - Tìm công cụ nhanh — v0.4.3
-- Hiện icon gốc của công cụ ngay trong danh sách kết quả tìm kiếm.
-- Nếu command không có icon hoặc icon không đọc được, hiển thị fallback bằng ký tự đầu.
-- Resolve icon tương đối theo source plugin để nhận được nhiều icon hơn.
-- Cache data URI và bỏ preview icon lớn hơn 64 KB để giữ giao diện mượt.
-- Giữ nguyên ghim, gỡ ghim, nhóm, ẩn/hiện nhóm, tên gợi nhớ và phím tắt.
-- Có đầy đủ RBZ + source archive của v0.4.3.
+### 🔎 03 - Tìm công cụ nhanh — v0.4.4
+- Sửa lỗi hộp thoại “Không tìm thấy công cụ gốc” xuất hiện lặp lại khi SketchUp khởi động.
+- Chỉ dựng proxy ghim sau khi command gốc của plugin nguồn đã sẵn sàng.
+- Tự quét lại và khôi phục ghim ở các lượt 0,8 / 2,5 / 5 giây.
+- Target chưa sẵn sàng chỉ báo ở status bar, không dùng modal messagebox.
+- Giữ nguyên icon tìm kiếm, ghim/gỡ ghim, nhóm, ẩn/hiện nhóm, tên gợi nhớ và phím tắt.
 
 ### ✂️ 04 - Tạo mặt cắt và góc nhìn — v1.6.0
 - Thêm Scene `ALL` nhìn tổng toàn bộ model.
