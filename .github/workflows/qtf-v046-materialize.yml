@@ -1,0 +1,43 @@
+name: Materialize Tìm Công Cụ Nhanh v0.4.6
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/qtf-v046-materialize.yml'
+      - '.release_tmp/qtf-v046/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tạo RBZ và source v0.4.6
+        shell: bash
+        run: |
+          set -euo pipefail
+          TMP=".release_tmp/qtf-v046"
+          TARGET="03 - Tìm công cụ nhanh/v0.4.6"
+          RBZ="$TARGET/tim_cong_cu_nhanh_v0.4.6.rbz"
+
+          mkdir -p "$TARGET/source"
+          cat "$TMP"/part*.txt | base64 -d > "$RBZ"
+          echo "38a4cdb57919a1a7826f35d59ef185eea8c5ee94f7c7c4b1cade4651a46868e1  $RBZ" | sha256sum -c -
+
+          unzip -q -o "$RBZ" -d "$TARGET/source"
+          (
+            cd "$TARGET/source"
+            zip -qr "../tim_cong_cu_nhanh_v0.4.6_source.zip" .
+          )
+
+          rm -rf "$TMP"
+          rm -f ".github/workflows/qtf-v046-materialize.yml"
+
+          git config user.name "VADA Release Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "build: materialize Tìm Công Cụ Nhanh v0.4.6"
+          git push
