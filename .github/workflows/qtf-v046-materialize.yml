@@ -25,7 +25,7 @@ jobs:
 
           mkdir -p "$TARGET/source"
           cat "$TMP"/part*.txt | base64 -d > "$RBZ"
-          echo "38a4cdb57919a1a7826f35d59ef185eea8c5ee94f7c7c4b1cade4651a46868e1  $RBZ" | sha256sum -c -
+          echo "6ca987d7ab3780c76ef89b430678cc8c1930d2e5bf7c7265550429f4bb5e574b  $RBZ" | sha256sum -c -
 
           unzip -q -o "$RBZ" -d "$TARGET/source"
           (
