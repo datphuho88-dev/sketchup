@@ -42,7 +42,7 @@
     {
       "id": "tim_cong_cu_nhanh",
       "name": "Tìm công cụ nhanh",
-      "latest_version": "0.4.4",
+      "latest_version": "0.4.6",
       "loader_candidates": [
         "quick_tool_finder.rb",
         "tim_cong_cu_nhanh.rb",
@@ -50,7 +50,7 @@
         "vada_tim_cong_cu_nhanh.rb"
       ],
       "hot_reload": false,
-      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/03%20-%20T%C3%ACm%20c%C3%B4ng%20c%E1%BB%A5%20nhanh/v0.4.4/tim_cong_cu_nhanh_v0.4.4.rbz",
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/03%20-%20T%C3%ACm%20c%C3%B4ng%20c%E1%BB%A5%20nhanh/v0.4.6/tim_cong_cu_nhanh_v0.4.6.rbz",
       "repo_path": "03 - Tìm công cụ nhanh",
       "extension_names": [
         "Tìm Công Cụ Nhanh",
