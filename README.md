@@ -21,6 +21,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 | 13 | 🎯 Click Sâu Mặt Cạnh | v1.0.1 | Có RBZ + source |
 | 14 | 🎨 Tô Màu Group Chưa Có Vật Liệu | v1.0.0 | Có RBZ + source |
 | 15 | 🪶 VADA Giảm Poly | v1.1.0 | Có RBZ + source |
+| 16 | 🔷 VADA Bool Dễ Dùng | v1.0.2 | Có RBZ + source |
 
 ## 📝 Ghi chú phiên bản mới nhất
 
@@ -43,6 +44,7 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - 🎯 `13 - Click Sâu Mặt Cạnh/`
 - 🎨 `14 - Tô Màu Group Chưa Có Vật Liệu/`
 - 🪶 `15 - VADA Giảm Poly/`
+- 🔷 `16 - VADA Bool Dễ Dùng/`
 
 ### 📄 Quy ước tệp
 - 📦 `*.rbz` — file cài plugin.
@@ -182,6 +184,15 @@ Kho plugin SketchUp nội bộ của **Công ty TNHH VADA**.
 - Thêm **Turbo cho model lớn**, tự ưu tiên tốc độ từ khoảng 50.000 tam giác; vẫn giữ material, chế độ thường tiếp tục giữ UV chi tiết.
 - Giữ riêng đầy đủ **v1.0.0** và **v1.1.0**, mỗi phiên bản có RBZ, source ZIP và README.
 - Sau khi cập nhật nên thoát hoàn toàn SketchUp rồi mở lại để nạp đúng code mới.
+
+
+### 🔷 16 - VADA Bool Dễ Dùng — v1.0.2
+- Boolean Solid theo quy trình chọn rõ A/B để tránh nhầm thứ tự vật thể.
+- Có **Gộp khối / Trừ khối / Cắt giữ dao / Lấy phần giao / Chia khối**.
+- Hướng dẫn trực tiếp khi chọn, đánh dấu A/B trong viewport và kiểm tra Solid trước khi chạy.
+- Bản v1.0.2 tối giản loader để tăng khả năng tương thích SketchUp 2023; root RBZ chỉ có loader và thư mục support cùng tên.
+- Giữ riêng đầy đủ **v1.0.0 / v1.0.1 / v1.0.2**; v1.0.2 có RBZ, source ZIP và README.
+- Plugin chưa ký số; nếu Extension Loading Policy chặn extension chưa xác định thì cần cho phép rồi khởi động lại SketchUp.
 
 ## 🧱 Cấu trúc chuẩn
 
