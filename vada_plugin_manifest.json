@@ -287,6 +287,27 @@
         "Giảm Poly",
         "Giam Poly"
       ]
+    },
+    {
+      "id": "bool_de_dung",
+      "name": "VADA Bool Dễ Dùng",
+      "latest_version": "1.0.2",
+      "loader_candidates": [
+        "vada_bool_de_dung.rb",
+        "VADA_Bool_De_Dung.rb"
+      ],
+      "hot_reload": false,
+      "rbz_url": "https://raw.githubusercontent.com/datphuho88-dev/sketchup/main/16%20-%20VADA%20Bool%20D%E1%BB%85%20D%C3%B9ng/v1.0.2/VADA_Bool_De_Dung_v1.0.2.rbz",
+      "repo_path": "16 - VADA Bool Dễ Dùng",
+      "extension_names": [
+        "VADA Bool Dễ Dùng",
+        "Bool Dễ Dùng"
+      ],
+      "detect_tokens": [
+        "Bool Dễ Dùng",
+        "Bool De Dung",
+        "VADA Bool"
+      ]
     }
   ]
 }
